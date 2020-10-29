@@ -1,4 +1,4 @@
-package algorithm_go
+package started
 
 import (
 	"fmt"

@@ -1,4 +1,4 @@
-package algorithm_go
+package started
 
 // 给定一个 haystack 字符串和一个 needle 字符串,
 // 在 haystack 字符串中找出 needle 字符串出现的第一个位置 (从 0 开始)。
@@ -26,6 +26,7 @@ func strStr(haystack, needle string) int {
 }
 
 // 给定一组不含重复元素的整数数组 numA, 返回该数组所有可能的子集（幂集）。
+// fixme 回溯算法学习下
 func subsets(numA []int) [][]int {
 	var result [][]int
 
