@@ -19,6 +19,20 @@ func TestTraversal(t *testing.T) {
 	fmt.Println()
 }
 
+func TestTraversal2(t *testing.T) {
+	tree := generateTree()
+	fmt.Println("preorder: ")
+	PreorderTraversal2(tree)
+	fmt.Println("\n--------------------------------")
+	fmt.Println("inorder: ")
+	InorderTraversal2(tree)
+	fmt.Println("\n--------------------------------")
+	fmt.Println("postorder: ")
+	PostorderTraversal2(tree)
+	fmt.Println("\n--------------------------------")
+	fmt.Println()
+}
+
 func generateTree() *TreeNode {
 	root := &TreeNode{}
 	root.val = 5
